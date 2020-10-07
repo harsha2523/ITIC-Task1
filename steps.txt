@@ -1,0 +1,10 @@
+Steps involved in Task 1:
+->Installing python 3.7 on the machine
+->created virtual environment in the git prompt by using virtualenv 
+-> Named virtual environment directory as Task.
+->"source Task/scripts/activate" is used to activate virtual environment.
+-> installed jupyter notebook with pip. "pip install jupyter notebook" in the vitual environment.
+-> imported the dataset on to jupyter notebook using pandas. "import pandas as pd" 
+->"pd.read_csv('data.csv')" was used to read the data set.
+-> imported matplotlib for plotting the barchart for the column.
+-> plotted the graph for the column Y i.e., "quality rating" as it shows the number of times LQ_CLOSE, LQ_EDIT and HQ have been repeated in the dataset with the help of code "data['Y'].value_counts().plot(kind='bar')"
